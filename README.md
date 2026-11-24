@@ -10,6 +10,7 @@
 - **College:** Dr. RVR NRI Institute of Technology
 - **Course:** Python Programming - Activity-Based Learning (ABL)
 - **Submission Type:** Individual Academic Submission
+- **Assignment Report:** [📄 View / Download Assignment_Report.pdf (Section 3)](Assignment_Report.pdf?raw=true)
 
 ## About
 
