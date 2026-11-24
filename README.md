@@ -6,7 +6,7 @@
 - **Roll Number:** 26000659
 - **Class / Year:** I B.Tech. (Computer Science & Engineering)
 - **Branch:** Computer Science and Engineering (CSE)
-- **Section:** *[To be filled by student]*
+- **Section:** Section 3
 - **College:** Dr. RVR NRI Institute of Technology
 - **Course:** Python Programming - Activity-Based Learning (ABL)
 - **Submission Type:** Individual Academic Submission
