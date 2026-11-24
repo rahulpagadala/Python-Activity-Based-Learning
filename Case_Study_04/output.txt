@@ -1,0 +1,18 @@
+EXECUTION LOG - Case Study 4 (P.RAHUL, 26000659)
+
+--- Test 1: Default data (6 items) ---
+INPUT: (none, data is inside the program)
+==================================================================
+Item          System  Physical    Diff   Status
+==================================================================
+Bolts            120       118      -2   OK
+Nuts              85        70     -15   DISCREPANCY 
+Washers           40        41      +1   OK
+Cables            60        58      -2   OK
+Switches          25        12     -13   DISCREPANCY REORDER
+Bulbs             70        95     +25   DISCREPANCY 
+==================================================================
+Items checked        : 6
+Discrepancies found  : 3
+Items to reorder     : 1
+

@@ -1,0 +1,83 @@
+EXECUTION LOG - Case Study 1 (P.RAHUL, 26000659)
+
+--- Test 1: 0% slab ---
+INPUT: Rajesh | 30000 | 0 | 0
+Enter employee name: Rajesh
+Enter basic pay (Rs.): 30000
+Enter overtime hours: 0
+Enter incentive (Rs.): 0
+
+==================================================
+            SALARY STATEMENT
+==================================================
+Employee Name     : Rajesh
+Basic Pay         : Rs. 30,000.00
+HRA (20%)         : Rs. 6,000.00
+DA (10%)          : Rs. 3,000.00
+Overtime          : Rs. 0.00
+Incentive         : Rs. 0.00
+--------------------------------------------------
+Gross Salary      : Rs. 39,000.00
+--------------------------------------------------
+Income Tax (0%)   : Rs. 0.00
+Provident Fund    : Rs. 3,600.00
+Other Deductions  : Rs. 2,000.00
+Total Deductions  : Rs. 5,600.00
+==================================================
+NET SALARY        : Rs. 33,400.00
+==================================================
+
+--- Test 2: 5% slab ---
+INPUT: Suresh | 50000 | 10 | 5000
+Enter employee name: Suresh
+Enter basic pay (Rs.): 50000
+Enter overtime hours: 10
+Enter incentive (Rs.): 5000
+
+==================================================
+            SALARY STATEMENT
+==================================================
+Employee Name     : Suresh
+Basic Pay         : Rs. 50,000.00
+HRA (20%)         : Rs. 10,000.00
+DA (10%)          : Rs. 5,000.00
+Overtime          : Rs. 5,000.00
+Incentive         : Rs. 5,000.00
+--------------------------------------------------
+Gross Salary      : Rs. 75,000.00
+--------------------------------------------------
+Income Tax (5%)   : Rs. 3,750.00
+Provident Fund    : Rs. 6,000.00
+Other Deductions  : Rs. 2,000.00
+Total Deductions  : Rs. 11,750.00
+==================================================
+NET SALARY        : Rs. 63,250.00
+==================================================
+
+--- Test 3: 15% slab ---
+INPUT: Anita | 120000 | 20 | 10000
+Enter employee name: Anita
+Enter basic pay (Rs.): 120000
+Enter overtime hours: 20
+Enter incentive (Rs.): 10000
+
+==================================================
+            SALARY STATEMENT
+==================================================
+Employee Name     : Anita
+Basic Pay         : Rs. 120,000.00
+HRA (20%)         : Rs. 24,000.00
+DA (10%)          : Rs. 12,000.00
+Overtime          : Rs. 10,000.00
+Incentive         : Rs. 10,000.00
+--------------------------------------------------
+Gross Salary      : Rs. 176,000.00
+--------------------------------------------------
+Income Tax (15%)  : Rs. 26,400.00
+Provident Fund    : Rs. 14,400.00
+Other Deductions  : Rs. 2,000.00
+Total Deductions  : Rs. 42,800.00
+==================================================
+NET SALARY        : Rs. 133,200.00
+==================================================
+

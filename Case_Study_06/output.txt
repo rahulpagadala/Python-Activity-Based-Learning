@@ -1,0 +1,19 @@
+EXECUTION LOG - Case Study 6 (P.RAHUL, 26000659)
+
+--- Test 1: Default data (6 courses) ---
+INPUT: (none, data is inside the program)
+Registered courses:
+  Maths        09:00 - 10:00
+  Physics      10:00 - 12:00
+  Python Lab   11:00 - 13:00
+  English      13:00 - 14:00
+  Chemistry    12:00 - 14:00
+  Workshop     15:00 - 17:00
+
+Conflict check:
+  CLASH: Physics and Python Lab overlap from 11:00 to 12:00
+  CLASH: Python Lab and Chemistry overlap from 12:00 to 13:00
+  CLASH: English and Chemistry overlap from 13:00 to 14:00
+
+Total conflicts: 3
+

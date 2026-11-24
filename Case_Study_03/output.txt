@@ -1,0 +1,28 @@
+EXECUTION LOG - Case Study 3 (P.RAHUL, 26000659)
+
+--- Test 1: Shortage 38/60 ---
+INPUT: 60 | 38
+Total classes held so far: 60
+Classes attended so far: 38
+
+Current attendance : 63.33%
+Status             : SHORTAGE (below 75%)
+Classes to attend continuously : 28
+Attended / Total after that    : 66 / 88
+Attendance after recovery      : 75.00%
+
+--- Test 2: Already eligible 45/50 ---
+INPUT: 50 | 45
+Total classes held so far: 50
+Classes attended so far: 45
+
+Current attendance : 90.00%
+Status             : ELIGIBLE (attendance is 75% or more)
+No recovery classes needed.
+
+--- Test 3: Invalid input ---
+INPUT: 0 | 0
+Total classes held so far: 0
+Classes attended so far: 0
+Invalid input: total must be > 0 and attended must be between 0 and total.
+

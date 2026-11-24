@@ -1,0 +1,13 @@
+EXECUTION LOG - Case Study 7 (P.RAHUL, 26000659)
+
+--- Test 1: Default data (7 transactions) ---
+INPUT: (none, data is inside the program)
+Suspicious duplicate pairs:
+  Txn 1001 & Txn 1003 -> Rs. 499.00 at Swiggy
+  Txn 1001 & Txn 1006 -> Rs. 499.00 at Swiggy
+  Txn 1002 & Txn 1005 -> Rs. 1,250.00 at Amazon
+  Txn 1003 & Txn 1006 -> Rs. 499.00 at Swiggy
+
+Transactions scanned : 7
+Duplicate pairs found: 4
+

@@ -1,0 +1,18 @@
+EXECUTION LOG - Case Study 9 (P.RAHUL, 26000659)
+
+--- Test 1: Default data (4x4) ---
+INPUT: (none, data is inside the program)
+Student        Maths   Physics Chemistry    Python   Total     Avg
+------------------------------------------------------------------
+Kiran             88        76        91        95     350   87.50
+Meena             67        72        58        80     277   69.25
+Arjun             45        52        38        60     195   48.75
+Divya             92        85        79        88     344   86.00
+------------------------------------------------------------------
+Average        73.00     71.25     66.50     80.75
+
+Highest mark in class : 95
+Lowest mark in class  : 38
+Top student           : Kiran (350 marks)
+Best subject          : Python (class average 80.75)
+

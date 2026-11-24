@@ -1,0 +1,106 @@
+EXECUTION LOG - Case Study 10 (P.RAHUL, 26000659)
+
+--- Test 1: Big order with discount ---
+INPUT: 3 | 1 | 2 | 6 | 4 | 3 | 2
+================================================
+               CANTEEN MENU
+================================================
+No.  Item               Price     Stock
+1    Veg Biryani           80        10
+2    Masala Dosa           50        12
+3    Samosa                15        20
+4    Tea                   10        30
+5    Coffee                20        25
+6    Sandwich              40         6
+
+How many different items do you want to order? 3
+Item 1 - enter item number (1-6): 1
+  Quantity: 2
+  Added to order.
+Item 2 - enter item number (1-6): 6
+  Quantity: 4
+  Added to order.
+Item 3 - enter item number (1-6): 3
+  Quantity: 2
+  Added to order.
+
+================================================
+                  YOUR BILL
+================================================
+Veg Biryani        2 x 80          160.00
+Sandwich           4 x 40          160.00
+Samosa             2 x 15           30.00
+------------------------------------------------
+Subtotal                            350.00
+Discount                             35.00
+PAYABLE                             315.00
+================================================
+
+Low stock alert (less than 5 left):
+  Sandwich - only 2 left
+
+--- Test 2: Insufficient stock ---
+INPUT: 1 | 6 | 10
+================================================
+               CANTEEN MENU
+================================================
+No.  Item               Price     Stock
+1    Veg Biryani           80        10
+2    Masala Dosa           50        12
+3    Samosa                15        20
+4    Tea                   10        30
+5    Coffee                20        25
+6    Sandwich              40         6
+
+How many different items do you want to order? 1
+Item 1 - enter item number (1-6): 6
+  Quantity: 10
+  Sorry, only 6 Sandwich left. Not added.
+
+================================================
+                  YOUR BILL
+================================================
+------------------------------------------------
+Subtotal                              0.00
+Discount                              0.00
+PAYABLE                               0.00
+================================================
+
+Low stock alert (less than 5 left):
+  All items sufficiently stocked.
+
+--- Test 3: Small order, no discount ---
+INPUT: 2 | 4 | 2 | 3 | 1
+================================================
+               CANTEEN MENU
+================================================
+No.  Item               Price     Stock
+1    Veg Biryani           80        10
+2    Masala Dosa           50        12
+3    Samosa                15        20
+4    Tea                   10        30
+5    Coffee                20        25
+6    Sandwich              40         6
+
+How many different items do you want to order? 2
+Item 1 - enter item number (1-6): 4
+  Quantity: 2
+  Added to order.
+Item 2 - enter item number (1-6): 3
+  Quantity: 1
+  Added to order.
+
+================================================
+                  YOUR BILL
+================================================
+Tea                2 x 10           20.00
+Samosa             1 x 15           15.00
+------------------------------------------------
+Subtotal                             35.00
+Discount                              0.00
+PAYABLE                              35.00
+================================================
+
+Low stock alert (less than 5 left):
+  All items sufficiently stocked.
+

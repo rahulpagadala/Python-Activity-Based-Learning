@@ -1,0 +1,15 @@
+EXECUTION LOG - Case Study 5 (P.RAHUL, 26000659)
+
+--- Test 1: Default data (5 students, 4 subjects) ---
+INPUT: (none, data is inside the program)
+============================================================================
+Student        Maths   Physics Chemistry    Python   Total   Avg %  Grade
+============================================================================
+Kiran             88        76        91        95     350   87.50  Excellent
+Meena             67        72        58        80     277   69.25  Good
+Arjun             45        52        38        60     195   48.75  Average
+Divya             30        35        28        42     135   33.75  Poor
+Sai               92        85        79        88     344   86.00  Excellent
+----------------------------------------------------------------------------
+Class avg      64.40     64.00     58.80     73.00
+
